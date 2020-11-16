@@ -209,19 +209,20 @@ h6 {
   width: 100%;
   height: 100vh;
   position: relative;
-  background: #f5f8fd url("../img/intro-bg.jpg") center top no-repeat;
+  /*background: #f5f8fd url("../img/intro-bg.jpg") center top no-repeat;*/
+  background-color: #1f1d3a;/*added*/
   background-size: cover;
 }
 
 #intro .intro-info h2 {
-  color: #413e66;
+  color: #f3f2fa;
   margin-bottom: 40px;
   font-size: 48px;
   font-weight: 700;
 }
 
 #intro .intro-info h2 span {
-  color: #1bb1dc;
+  color: #1d90b3;
 }
 
 #intro .intro-info .btn-get-started,
